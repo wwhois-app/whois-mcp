@@ -1,0 +1,7 @@
+# Remote MCP server hosted at wwhois.ru — Smithery connects to the URL directly.
+# For a purely remote server you can also just register the URL in the Smithery
+# UI ("Add Server") without this file; check current Smithery docs for the
+# canonical remote-server format.
+startCommand:
+  type: http
+  url: https://wwhois.ru/backend/mcp

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.wwhois-app/whois-mcp",
+  "description": "WHOIS/RDAP domain lookup, IP geolocation and Punycode conversion. 1400+ TLDs including IDN. Public remote server, no API key.",
+  "repository": {
+    "url": "https://github.com/wwhois-app/whois-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://wwhois.ru/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wwhois.ru/backend/mcp"
+    }
+  ]
+}
