@@ -6,6 +6,10 @@ WHOIS/RDAP domain lookup, IP geolocation and Punycode conversion, exposed as
 
 - **Server URL:** `https://wwhois.ru/backend/mcp`
 - **Transport:** Streamable HTTP (JSON-RPC 2.0)
+- **Protocol revisions:** `2026-07-28` (current — per-request metadata,
+  `server/discover`) and `2025-11-25` … `2024-11-05` (the `initialize`
+  handshake). Both are served on the same endpoint; the server picks by how
+  the client opens.
 - **Auth:** none — public, read-only
 - **Rate limit:** 30 tool calls / minute per client IP
 - **Docs:** https://wwhois.ru/mcp
